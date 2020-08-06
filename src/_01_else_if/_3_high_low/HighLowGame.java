@@ -41,10 +41,11 @@ if (Weasley > random)  {
 if (Weasley < random)  {
 	JOptionPane.showMessageDialog(null, "Your guess is too low.");
 	JOptionPane.showMessageDialog(null, "You Lose");
-	
+
 }
 
 		// 13. Tell them they lose
+JOptionPane.showMessageDialog(null, "You lose!");
 
 	}
 
