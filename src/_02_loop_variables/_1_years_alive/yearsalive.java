@@ -4,18 +4,13 @@ import javax.swing.JOptionPane;
 
 public class yearsalive {
    public static void main(String[] args) {
+	   String age = JOptionPane.showInputDialog("How many years have you been alive?");
+	   int alive = Integer.parseInt(age);
 	   
-	  String age = JOptionPane.showInputDialog("How old are you?");
-	  int ager = Integer.parseInt(age);
-	  
-	  
-	   int birth = 2023 - ager;
-	  
-	for (int i = 0; i < ager; i++) {
-		
-		System.out.println(birth);
-		birth+=1;
-		
+	   for (int i = 2006; i < 2006 + alive; i++) {
+		System.out.println(i);
 	}
+   }
+   
 }
-}
+	
